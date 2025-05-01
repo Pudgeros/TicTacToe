@@ -8,7 +8,7 @@ const Square = ({ value, setSquareValue }: SquareProps) => {
         <button
             onClick={setSquareValue}
             style = {{
-                color: value ? '#e3f542' : '#282c34',
+                color: value ? '#ff0000' : '#282c34',
             }}
         >
             {value || '-'}
